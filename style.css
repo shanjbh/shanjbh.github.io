@@ -1,0 +1,44 @@
+li{
+	display: inline-block;
+	font-size: 24px;
+	margin-top: 20px;
+	text-indent: 1em;
+}
+.pic{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+}
+.container{
+	position: absolute;
+	text-align: center;
+	margin-top: 200px;
+
+}
+
+.btn-pp{
+	text-align: center;
+	margin-top: 50px;
+
+}
+
+.btn-warning{
+	background-color: green;
+	border-color: green;
+}
+
+.btn-warning:hover{
+	background-color: blue;
+	border-color: blue;
+}
+
+.btn:active{
+	background-color: green;
+	border-color: green;
+}
+
+
+
+
+
