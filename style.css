@@ -4,23 +4,34 @@ li{
 	margin-top: 20px;
 	text-indent: 1em;
 }
+
+h1{
+	text-align: center;
+}
+
 .pic{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	position: relative;
+	
 }
-.container{
-	position: absolute;
-	text-align: center;
-	margin-top: 200px;
 
+img{
+	height: 100%;
+	width: 100%;
 }
 
 .btn-pp{
 	text-align: center;
-	margin-top: 50px;
+}
 
+.btn{
+	color: white;
+	font-weight: 700;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 200px;
+	height: 50px;
 }
 
 .btn-warning{
@@ -29,14 +40,10 @@ li{
 }
 
 .btn-warning:hover{
-	background-color: blue;
-	border-color: blue;
+	background-color: lightgreen;
+	border-color: lightgreen;
 }
 
-.btn:active{
-	background-color: green;
-	border-color: green;
-}
 
 
 
